@@ -18,3 +18,4 @@ Subroutine 내부에서 Global Variable 을 대체할 Local Variable 을 생성�
            CHAINGING pv_result TYPE i. "Call by Reference
   
 ```
+
