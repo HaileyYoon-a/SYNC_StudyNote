@@ -8,7 +8,7 @@ USING 에는 서브루틴에서 사용할 참조 변수명 기입 (펑션의 EXP
 
 CHANGING 은 서브루틴에서 변경된 값을 전달 받을 변수 기입 (펑션의 IMPORTING 과 비슷)
 
-사용 예시
+>사용 예시
 ```abap
   DATA: gv_result TYPE i.
   PARAMITER: pa_a type i,
