@@ -16,5 +16,6 @@ Display/Maintenance Allowed 유지보수 허용 선택
 Data Class와 Size Category 두 가지 항목은 필수 지정.
 Data Class : 데이터 베이스의 어떤 영역에 테이블이 저장될지 정의한다.
 데이터의 변경 빈도 등을 고려하여 적절한 위치를 할당해야 하지만 현대에는 큰 의미가 없다.
+
 Size Category : 저장 가능한 데이터 건수를 지정. 
  
