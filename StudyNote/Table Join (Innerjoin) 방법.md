@@ -30,6 +30,6 @@ SELECT
     AND b~custtype IN so_ty
     AND a~fldate IN so_fdt.
     ```
-    ~ 로 테이블과 필드이름을 연결한다.
+~ 로 테이블과 필드이름을 연결한다.
     
-    on은 join의 기준이 될 필드로 조인할 테이블의 갯수만큼 기준을 정해줘야 한다.
+on은 join의 기준이 될 필드로 조인할 테이블의 갯수만큼 기준을 정해줘야 한다.
