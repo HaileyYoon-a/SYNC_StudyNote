@@ -6,12 +6,12 @@
   DATA: gv_result TYPE i.
   PARAMITER: pa_a type i,
              pa_b type i.
-  * Subroutine 호출.
+* Subroutine 호출.
   FORM xxx USING pa_a
                  pa_b
            CHAINGING gv_result.
   
-  * Subroutine 내용.
+* Subroutine 내용.
   FORM xxx USING VALUE pv_a TYPE i "Call by Value
                  VALUE pv_b TYPE i "Call by Value
            CHAINGING VALUE pv_result "Call by Value and Result
