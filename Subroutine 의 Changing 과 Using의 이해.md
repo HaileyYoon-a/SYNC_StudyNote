@@ -1,6 +1,6 @@
 # Subroutine 의 Changing 과 Using의 이해
 
-> Subroutine 내부에서 Global Variable 을 대체할 Local Variable.
+## Subroutine 내부에서 Global Variable 을 대체할 Local Variable.
 
 글로벌 변수-로컬변수 값을 전달하기 위해 USING 과 CHANGING 을 사용
 
@@ -8,7 +8,7 @@ USING 에는 서브루틴에서 사용할 참조 변수명 기입 (펑션의 EXP
 
 CHANGING 은 서브루틴에서 변경된 값을 전달 받을 변수 기입 (펑션의 IMPORTING 과 비슷)
 
->사용 예시
+## 사용 예시
 ```abap
   DATA: gv_result TYPE i.
   PARAMITER: pa_a type i,
@@ -26,7 +26,7 @@ CHANGING 은 서브루틴에서 변경된 값을 전달 받을 변수 기입 (�
            CHAINGING pv_result TYPE i. " Call by Reference
   
 ```
-> CALL BY ~ 세 가지 전달 방법
+## CALL BY ~ 세 가지 전달 방법
  
  CALL BY VALUE :
  값이 메인 프로그램으로 전달 되지 않고 서브 루틴 내에서만 변경됨 
