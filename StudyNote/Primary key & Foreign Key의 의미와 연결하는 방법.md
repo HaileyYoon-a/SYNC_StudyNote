@@ -1,5 +1,13 @@
+## Primary key의 의미
+
+데이터의 고유성을 보장해준다.
+해당 키가 설정된 데이터는 유일한 값 
+
 ## Foreign Key의 의미
-Foreign Keys 로 체크테이블과 연결하면 테이블에 데이터를 추가할 때 체크 테이블에 있는 값과 유효성 체크가 된다.
+
+Foreign Key 로 체크테이블과 연결하면 테이블에 데이터를 추가할 때 체크 테이블에 있는 값과 유효성 체크가 된다.
+
+기준이 되는 테이블은 Primary key 값을, 외래 테이블은 Foreign Keys 값으로 연결된다.
 
 ## Structure Type에 Foreign Key 연결
 ![image](https://user-images.githubusercontent.com/122577321/215444718-a67db236-5f05-4c6f-a18a-aab4eecfa2b3.png)
