@@ -2,6 +2,7 @@
 ## Delivery Class 의 종류
 ![image](https://user-images.githubusercontent.com/122577321/215413853-1cb0839e-d004-4532-8cf9-57d095275771.png)
 A: 각 시스템에서 데이터를 직접 제어하는 경우, 일반적으로 많이 사용됨 Customer Table 이라고 함.
+
 C: 데이터를 CTS 가능하게 하여 개발기, QA, 운영기 등이 동일한 데이터를 가져야 할 때 사용됨 Customizing Table 이라고 함.
 
 참고 : https://stepwith.tistory.com/entry/ABAP-%EA%B0%95%EC%A2%8C-3-%ED%85%8C%EC%9D%B4%EB%B8%94-Table-%EC%83%9D%EC%84%B1-1
