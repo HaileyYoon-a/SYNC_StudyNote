@@ -8,6 +8,7 @@ C: 데이터를 CTS 가능하게 하여 개발기, QA, 운영기 등이 동일�
 >Data Brower / Table View Editing 선택 항목의 의미
 ![image](https://user-images.githubusercontent.com/122577321/215414613-aaf6aa68-4eaa-45e6-b82b-c00d15f952b6.png)
 ![image](https://user-images.githubusercontent.com/122577321/215414801-26d65139-6142-40e0-bfa9-0ab6e1915208.png)
+Display/Maintenance Allowed 유지보수 허용 선택
 
 > Technical Settings
 ![image](https://user-images.githubusercontent.com/122577321/215414936-4a3e8d4a-1437-4a2e-8a4f-17e448ece433.png)
