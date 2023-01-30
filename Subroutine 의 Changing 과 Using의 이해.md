@@ -1,8 +1,8 @@
-# Subroutine 의 Changing 과 Using의 이해
+>> Subroutine 의 Changing 과 Using의 이해
 
-> Subroutine 내부에서 Global Variable 을 대체할 Local Variable 을 생성해야 함
+# Subroutine 내부에서 Global Variable 을 대체할 Local Variable 을 생성해야 함
 
-예시
+사용 예시
 ```abap
   DATA: gv_result TYPE i.
   PARAMITER: pa_a type i,
@@ -20,4 +20,10 @@
            CHAINGING pv_result TYPE i. " Call by Reference
   
 ```
-
+> CALL BY ~ 세 가지 전달 방법
+# CALL BY VALUE 
+ 값이 메인 프로그램으로 전달 되지 않고 서브 루틴 내에서만 변경됨 
+# CALL BU VALUE RESULT
+ 서브 루틴에서 변경된 변수의 값이 메인 프로그램에 전달됨
+# CALL BY REFERENCE
+ 메인 프로그램의 변수와 서브 루틴의 변수가 연결되어 있다 (동시에 변경되고 전달됨)
