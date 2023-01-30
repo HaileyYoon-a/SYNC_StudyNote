@@ -29,7 +29,7 @@ SELECT
     WHERE b~id IN so_cn
     AND b~custtype IN so_ty
     AND a~fldate IN so_fdt.
-    ```
+```
 
 ~ 로 테이블과 필드이름을 연결한다.
     
