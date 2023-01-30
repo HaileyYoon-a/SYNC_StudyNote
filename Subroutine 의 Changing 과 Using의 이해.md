@@ -1,6 +1,6 @@
 # Subroutine 의 Changing 과 Using의 이해
 
-> Subroutine 내부에서 Global Variable 을 대체할 Local Variable 을 생성해야 함
+> Subroutine 내부에서 Global Variable 을 대체할 Local Variable.
 
 글로벌 변수-로컬변수 값을 전달하기 위해 USING 과 CHANGING 을 사용
 
